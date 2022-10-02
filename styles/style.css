@@ -239,7 +239,9 @@
   -ms-flex-item-align: end;
       align-self: flex-end;
   letter-spacing: 0.2em;
-  line-height: 1.22;
+  line-height: 2;
+  margin: 0;
+  color: #AAAAAA;
 }
 
 .places__link {
@@ -247,6 +249,9 @@
   letter-spacing: 0;
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 2;
 }
 
 .places__link:hover {
