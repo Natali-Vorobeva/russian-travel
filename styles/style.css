@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Inter:300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Inter:300,regular,500,600,700,800,900);
 .page {
   font-family: 'Inter', sans-serif;
   max-width: 1280px;
@@ -59,4 +59,70 @@
 
 .header__link-en {
   margin: 0px 0px 0px 18px;
+}
+
+.travel__title {
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 1.04;
+  max-width: 720px;
+  padding: 56px 0px 0px 0px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.travel__subtitle {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.2;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 32px 0px 0px 0px;
+}
+
+.travel__image {
+  padding: 64px 0px 0px 0px;
+  max-width: 100%;
+}
+
+.travel__image-text {
+  padding: 8px 0px 0px 0px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.travel__article {
+  padding: 92px 0px 0px 0px;
+}
+
+.travel__article-title {
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.07;
+}
+
+.travel__article-subtitle {
+  padding: 40px 0px 0px 0px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+  max-width: 690px;
+}
+
+.travel__list {
+  padding: 33px 0px 0px 0px;
+  list-style-type: none;
+}
+
+.travel__list-item {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.travel__list-item_size_weight {
+  font-weight: 800;
 }
