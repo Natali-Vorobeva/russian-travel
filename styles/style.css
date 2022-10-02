@@ -1,5 +1,62 @@
 @import url(https://fonts.googleapis.com/css?family=Inter:300,regular,500,600,700);
 .page {
-  background: #E5E5E5;
   font-family: 'Inter', sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.page__background {
+  background: #2A2C2F;
+}
+
+.container-big {
+  max-width: 1184px;
+  margin: 0 auto;
+}
+
+.container-small {
+  max-width: 984px;
+  margin: 0px auto;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__logo {
+  max-width: 176px;
+  padding: 28px 0px 0px 0px;
+}
+
+.header__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 46px 0px 0px 0px;
+}
+
+.header__link-ru:after {
+  content: '';
+  position: absolute;
+  width: 19px;
+  height: 1px;
+  background-color: #fff;
+  top: 64px;
+  right: 37px;
+}
+
+.header__link-en {
+  margin: 0px 0px 0px 18px;
 }
