@@ -1,0 +1,8 @@
+.places__url {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  letter-spacing: 0.2em;
+  line-height: 2;
+  margin: 0;
+  color: #AAAAAA;
+}

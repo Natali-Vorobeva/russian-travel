@@ -1,0 +1,22 @@
+.places__card-body:not(:last-child) {
+  padding: 0px 0px 80px 0px;
+}
+
+@media(max-width:1024px){
+  .places__card-body:not(:last-child) {
+    padding: 0px 0px 77px 0px;
+}
+}
+
+@media(max-width:768px){
+  .places__card-body:not(:last-child) {
+    padding: 0px 0px 50px 0px;
+}
+}
+
+
+@media (max-width:768px){
+  .places__card-body {
+    padding: 64px 0px 0px 0px;
+  }
+}

@@ -1,0 +1,9 @@
+.container-small {
+  max-width: 1184px;
+}
+@media (min-width: 1024px) {
+  .container-small {
+    max-width: 984px;
+    margin: 0 auto;
+  }
+}

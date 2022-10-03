@@ -1,0 +1,13 @@
+.cover__image {
+  width: 100%;
+  opacity: 0.8;
+  background-size: cover;
+    -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+
+.cover__image:hover {
+  opacity: 0.3;
+  -webkit-transition: opacity 0.8s ease;
+  transition: opacity 0.8s ease;
+}

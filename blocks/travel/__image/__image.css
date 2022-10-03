@@ -1,0 +1,16 @@
+.travel__image {
+  padding: 64px 0px 0px 0px;
+  max-width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .travel__image {
+    padding: 56px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .travel__image {
+    padding: 40px 0px 0px 0px;
+  }
+}

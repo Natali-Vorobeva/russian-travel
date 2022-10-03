@@ -1,0 +1,14 @@
+.page {
+  font-family: 'Inter', sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+  color: #fff;
+  text-rendering: optimizeLegibility;
+}
+
+@media (max-width: 768px) {
+  .page {
+    display: flex;
+    flex-direction: column;
+  }
+}

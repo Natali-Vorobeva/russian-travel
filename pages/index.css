@@ -1,0 +1,69 @@
+@import url('../blocks/vendor/normalize.css');
+@import url('../blocks/font-family/font-family.css');
+@import url('../blocks/container-big/container-big.css');
+@import url('../blocks/container-small/container-small.css');
+@import url('../blocks/link/link.css');
+@import url('../blocks/media-padding/media-padding.css');
+@import url('../blocks/section-title/section-title.css');
+
+
+@import url('../blocks/page/page.css');
+@import url('../blocks/page/__background/__background.css');
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__link-en/__link-en.css');
+@import url('../blocks/header/__link-ru/__link-ru.css');
+@import url('../blocks/header/__links/__links.css');
+@import url('../blocks/header/__logo/__logo.css');
+
+@import url('../blocks/travel/__title/__title.css');
+@import url('../blocks/travel/__subtitle/__subtitle.css');
+@import url('../blocks/travel/__image/__image.css');
+@import url('../blocks/travel/__image-text/__image-text.css');
+@import url('../blocks/travel/__article/__article.css');
+@import url('../blocks/travel/__article-title/__article-title.css');
+@import url('../blocks/travel/__article-subtitle/__article-subtitle.css');
+@import url('../blocks/travel/__list-item/__list-item.css');
+@import url('../blocks/travel/__list/__list.css');
+
+
+
+@import url('../blocks/grid/grid.css');
+@import url('../blocks/grid/__image/__image.css');
+
+@import url('../blocks/places/places.css');
+@import url('../blocks/places/__card-body/__card-body.css');
+@import url('../blocks/places/__card/__card.css');
+@import url('../blocks/places/__image/__image.css');
+@import url('../blocks/places/__link/__link.css');
+@import url('../blocks/places/__name/__name.css');
+@import url('../blocks/places/__paragraph/__paragraph.css');
+@import url('../blocks/places/__title/__title.css');
+@import url('../blocks/places/__url/__url.css');
+
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/cover/__image/__image.css');
+@import url('../blocks/cover/__subtitle/__subtitle.css');
+@import url('../blocks/cover/__title/__title.css');
+@import url('../blocks/cover/__wrapper-opacity/__wrapper-opacity.css');
+
+
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__copyright/__copyright.css');
+@import url('../blocks/footer/__link/__link.css');
+@import url('../blocks/footer/__links/__links.css');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
