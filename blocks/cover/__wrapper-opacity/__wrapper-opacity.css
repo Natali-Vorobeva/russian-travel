@@ -6,23 +6,25 @@
   box-sizing: border-box;
   display: block;
   cursor: pointer;
+  margin-top:calc(-100px + (-380 + 100) * ((100vw - 320px) / (1180 - 320)));
 }
 
 @media (max-width:1024px) {
   .cover__wrapper-opacity {
-  margin-top: -350px;
+  /* margin-top: -350px; */
 }
 }
 
 @media (max-width:768px) {
   .cover___wrapper-opacity {
-  margin-top: -280px;
+  /* margin-top: -280px; */
+
 }
 }
 
 @media (max-width:570px) {
   .cover___wrapper-opacity {
-  margin-top: -230px;
+  /* margin-top: -230px; */
 }
 }
 

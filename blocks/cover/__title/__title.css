@@ -4,23 +4,25 @@
   text-align: center;
   margin: 0 auto;
   padding: 215px 0px 0px 0px;
+  padding-top:calc(30px + (215 - 30) * ((100vw - 320px) / (1180 - 320)));
+  padding: 0px 0px 0px 0px;
 }
 
 @media (max-width:1024px) {
   .cover__title {
-    padding: 70px 0px 0px 0px;
+    /* padding: 70px 0px 0px 0px; */
   }
 }
 
 @media (max-width: 768px) {
   .cover__title {
     font-size: calc(32px + (72 - 32) * ((100vw - 320px) / (1024 - 320)));
-    padding: 30px 0px 0px 0px;
+    /* padding: 30px 0px 0px 0px; */
   }
 }
 
 @media (max-width:420px) {
   .cover__title {
-    padding: 30px 0px 0px 0px;
+    /* padding: 30px 0px 0px 0px; */
   }
 }

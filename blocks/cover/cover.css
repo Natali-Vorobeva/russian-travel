@@ -1,5 +1,6 @@
 .cover {
   position: relative;
-  padding: 92px 0px 0px 0px;
+  padding: 292px 0px 0px 0px;
   width: 100%;
+  padding-top: calc(80px + (202 - 80) * ((100vw - 320px) / (1180 - 320)))
 }
