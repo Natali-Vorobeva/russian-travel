@@ -5,7 +5,7 @@
   transition: opacity 0.3s ease;
   font-weight: 400;
   font-size: 18px;
-  line-height: 2;
+  line-height: 1.22;
 }
 
 .places__link:hover {
