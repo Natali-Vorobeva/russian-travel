@@ -1,6 +1,13 @@
 .places {
   padding: 92px 0px 0px 0px;
-  margin:0px 48px;
+  margin:0px 148px;
+}
+
+@media (max-width:1280px){
+  .places {
+    margin: 0px 48px;
+    padding: 88px 0px 0px 0px;
+  }
 }
 
 @media (max-width:1024px){
