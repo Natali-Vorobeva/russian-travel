@@ -1,0 +1,15 @@
+.travel__plan {
+  padding: 64px 0px 0px 0px;
+  margin: 0px 148px;
+}
+
+@media(max-width:1024px){
+  .travel__plan {
+    margin: 0px 48px;
+  }
+}
+@media(max-width:1024px){
+  .travel__plan {
+    margin: 0;
+  }
+}

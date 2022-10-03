@@ -6,4 +6,18 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+          max-width: 1184px;
+          margin: 0px 48px 0px 48px;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    margin: 0px 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    margin: 0px 16px;
+  }
 }

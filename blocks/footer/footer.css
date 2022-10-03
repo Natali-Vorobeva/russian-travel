@@ -4,7 +4,15 @@
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
+  max-width: 1184px;
+  margin: 0px 48px;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    margin: 0px 24px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -12,7 +20,7 @@
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column;
-
+    flex-direction: column;
+    margin: 0px 16px;
   }
 }

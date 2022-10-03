@@ -7,3 +7,10 @@
   margin-top:calc(-150px + (-380 + 150) * ((100vw - 320px) / (1180 - 320)));
 }
 
+@media(min-width:1280px){
+  .cover__wrapper-opacity {
+    margin-top: -450px;
+  }
+
+}
+
