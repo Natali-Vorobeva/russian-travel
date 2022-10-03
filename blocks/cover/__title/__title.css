@@ -3,10 +3,16 @@
   display: block;
   text-align: center;
   margin: 0 auto;
-  padding: 215px 0px 0px 0px;
-  padding-top:calc(30px + (215 - 30) * ((100vw - 320px) / (1180 - 320)));
+  padding: 300px 0px 0px 0px;
+  /* padding-top: calc(90px + (200 - 90) * ((100vw - 320px) / (1180 - 320))); */
   position: relative;
   z-index: 3;
+}
+
+@media (max-width: 1024px) {
+  .cover__title {
+    padding-top: calc(90px + (200 - 90) * ((100vw - 320px) / (1180 - 320)));
+  }
 }
 
 @media (max-width: 768px) {
