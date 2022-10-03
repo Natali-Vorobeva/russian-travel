@@ -1,52 +1,53 @@
-@import url('../blocks/vendor/normalize.css');
-@import url('../blocks/font-family/font-family.css');
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
 @import url('../blocks/link/link.css');
 
 @import url('../blocks/page/page.css');
-@import url('../blocks/page/__background/__background.css');
+@import url('../blocks/page/__background/page__background.css');
 
 @import url('../blocks/header/header.css');
-@import url('../blocks/header/__link-en/__link-en.css');
-@import url('../blocks/header/__link-ru/__link-ru.css');
-@import url('../blocks/header/__links/__links.css');
-@import url('../blocks/header/__logo/__logo.css');
+@import url('../blocks/header/__link-en/header__link-en.css');
+@import url('../blocks/header/__link-ru/header__link-ru.css');
+@import url('../blocks/header/__links/header__links.css');
+@import url('../blocks/header/__logo/header__logo.css');
 
-@import url('../blocks/travel/__title/__title.css');
-@import url('../blocks/travel/__subtitle/__subtitle.css');
-@import url('../blocks/travel/__plan/__plan.css');
-@import url('../blocks/travel/__image/__image.css');
-@import url('../blocks/travel/__image-text/__image-text.css');
-@import url('../blocks/travel/__article/__article.css');
-@import url('../blocks/travel/__article-title/__article-title.css');
-@import url('../blocks/travel/__article-subtitle/__article-subtitle.css');
-@import url('../blocks/travel/__list-item/__list-item.css');
-@import url('../blocks/travel/__list/__list.css');
+@import url('../blocks/travel/__title/travel__title.css');
+@import url('../blocks/travel/__subtitle/travel__subtitle.css');
+@import url('../blocks/travel/__plan/travel__plan.css');
+@import url('../blocks/travel/__image/travel__image.css');
+@import url('../blocks/travel/__image-text/travel__image-text.css');
+@import url('../blocks/travel/__article/travel__article.css');
+@import url('../blocks/travel/__article-title/travel__article-title.css');
+@import url('../blocks/travel/__article-subtitle/travel__article-subtitle.css');
+@import url('../blocks/travel/__list-item/travel__list-item.css');
+@import url('../blocks/travel/__list-item/_size/travel__list-item_size_weight.css');
+@import url('../blocks/travel/__list/travel__list.css');
 
 @import url('../blocks/grid/grid.css');
-@import url('../blocks/grid/__image/__image.css');
+@import url('../blocks/grid/__image/grid__image.css');
 
 @import url('../blocks/places/places.css');
-@import url('../blocks/places/__card-body/__card-body.css');
-@import url('../blocks/places/__card/__card.css');
-@import url('../blocks/places/__image/__image.css');
-@import url('../blocks/places/__link/__link.css');
-@import url('../blocks/places/__name/__name.css');
-@import url('../blocks/places/__paragraph/__paragraph.css');
-@import url('../blocks/places/__paragraph/_size/_indent.css');
-@import url('../blocks/places/__title/__title.css');
-@import url('../blocks/places/__url/__url.css');
+@import url('../blocks/places/__card-body/places__card-body.css');
+@import url('../blocks/places/__card/places__card.css');
+@import url('../blocks/places/__image/places__image.css');
+@import url('../blocks/places/__link/places__link.css');
+@import url('../blocks/places/__name/places__name.css');
+@import url('../blocks/places/__paragraph/places__paragraph.css');
+@import url('../blocks/places/__paragraph/_size/places__paragraph_size_indent.css');
+@import url('../blocks/places/__title/places__title.css');
+@import url('../blocks/places/__url/places__url.css');
 
 @import url('../blocks/cover/cover.css');
-@import url('../blocks/cover/__image/__image.css');
-@import url('../blocks/cover/__subtitle/__subtitle.css');
-@import url('../blocks/cover/__title/__title.css');
-@import url('../blocks/cover/__wrapper-opacity/__wrapper-opacity.css');
+@import url('../blocks/cover/__image/cover__image.css');
+@import url('../blocks/cover/__subtitle/cover__subtitle.css');
+@import url('../blocks/cover/__title/cover__title.css');
+@import url('../blocks/cover/__wrapper-opacity/cover__wrapper-opacity.css');
 
 
 @import url('../blocks/footer/footer.css');
-@import url('../blocks/footer/__copyright/__copyright.css');
-@import url('../blocks/footer/__link/__link.css');
-@import url('../blocks/footer/__links/__links.css');
+@import url('../blocks/footer/__copyright/footer__copyright.css');
+@import url('../blocks/footer/__link/footer__link.css');
+@import url('../blocks/footer/__links/footer__links.css');
 
 
 

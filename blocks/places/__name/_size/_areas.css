@@ -1,7 +1,0 @@
-.places__name_size_areas {
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 76px);
-  grid-template-areas:
-  "title ... "
-  "title url";
-}
