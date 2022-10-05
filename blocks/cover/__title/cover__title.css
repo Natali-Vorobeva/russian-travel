@@ -8,6 +8,7 @@
   z-index: 3;
   font-weight: 900;
   font-size: 72px;
+  pointer-events: none;
 }
 
 @media (max-width: 1024px) {
