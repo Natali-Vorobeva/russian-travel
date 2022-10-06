@@ -1,0 +1,23 @@
+.card-body__card {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: 100%; */
+  gap: 40px;
+  padding: 48px 0 0 0;
+  column-gap: 16px;
+}
+
+@media (max-width:768px) {
+  .card-body__card {
+    column-gap: 32px;
+  }
+}
+
+@media (max-width:730px){
+  .card-body__card {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 28px;
+  }
+  }

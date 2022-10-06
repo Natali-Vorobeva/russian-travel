@@ -1,16 +1,17 @@
 .cover__wrapper-opacity {
-  width: 100%;
-  max-height: 740px;
-  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2A2C2F;
+  opacity: 0.3;
+  transition: opacity 1s ease;
   display: block;
-  cursor: pointer;
-  margin-top:calc(-150px + (-380 + 150) * ((100vw - 320px) / (1180 - 320)));
 }
 
-@media(min-width:1280px){
-  .cover__wrapper-opacity {
-    margin-top: -450px;
-  }
-
+.cover__wrapper-opacity:hover {
+  opacity: 0.8;
+  transition: opacity 1s ease;
 }
 

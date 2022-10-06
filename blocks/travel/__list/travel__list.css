@@ -1,26 +1,26 @@
 .travel__list {
-  padding: 33px 0px 0px 0px;
+  padding: 33px 0 0 0;
   list-style-type: none;
-  margin: 0px 148px;
+  margin: 0 148px;
 }
 
 @media(max-width:1280px){
   .travel__list {
-    margin: 0px 48px;
+    margin: 0 48px;
   }
 
 }
 
 @media (max-width: 1024px) {
   .travel__list {
-    margin: 0px 24px;
-    padding: 88px 0px 0px 0px;
+    margin: 0 24px;
+    padding: 88px 0 0 0;
   }
 }
 
 @media (max-width: 768px) {
   .travel__list {
-    margin: 0px 16px;
-    padding: 64px 0px 0px 0px;
+    margin: 0 16px;
+    padding: 64px 0 0 0;
   }
 }

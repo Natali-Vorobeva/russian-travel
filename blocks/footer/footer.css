@@ -6,12 +6,12 @@
       -ms-flex-pack: justify;
   justify-content: space-between;
   max-width: 1184px;
-  margin: 0px 48px;
+  margin: 0 48px;
 }
 
 @media (max-width: 1024px) {
   .footer {
-    margin: 0px 24px;
+    margin: 0 24px;
   }
 }
 
@@ -21,6 +21,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
     flex-direction: column;
-    margin: 0px 16px;
+    margin: 0 16px;
   }
 }

@@ -1,8 +1,10 @@
 .cover {
   position: relative;
-  width: 100%;
-  max-width: 1184px;
-  margin: 0 auto;
+  background-image: url('../../image/cover-trains.jpg');
+  background-size: cover;
+  padding: 245px 0 253px 0;
+  margin: 90px 48px 0 48px;
+  object-fit: cover;
 }
 
 @media(max-width:1024px){

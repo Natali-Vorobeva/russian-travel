@@ -1,0 +1,7 @@
+.card-body__image {
+  max-width: 460px;
+  -o-object-fit: cover;
+     object-fit: cover;
+     font-display: block;
+
+}

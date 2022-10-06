@@ -1,0 +1,13 @@
+.language {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 46px 0 0 0;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .language__links {
+    padding: 40px 0 0 0;
+  }
+}

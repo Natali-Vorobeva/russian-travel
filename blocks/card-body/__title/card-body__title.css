@@ -1,0 +1,18 @@
+.card-body__title {
+  margin: 0;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.05;
+}
+
+@media (max-width: 1024px) {
+  .card-body__title {
+    font-size: calc(42px + (72 - 42) * ((100vw - 320px) / (1024 - 320)));
+  }
+}
+
+@media (max-width: 768px) {
+  .card-body__title {
+    font-size: calc(32px + (42 - 32) * ((100vw - 320px) / (1024 - 320)));
+  }
+}
