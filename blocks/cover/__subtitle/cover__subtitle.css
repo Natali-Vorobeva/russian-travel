@@ -11,6 +11,7 @@
   margin: 0 auto;
   position: relative;
   z-index: 3;
+  pointer-events: none;
 }
 
 @media(max-width:1024px){
