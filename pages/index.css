@@ -1,6 +1,7 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/fonts.css');
 @import url('../blocks/link/link.css');
+@import url('../blocks/active/active.css');
 @import url('../blocks/span-accent/span-accent.css');
 
 @import url('../blocks/page/page.css');
@@ -10,8 +11,7 @@
 @import url('../blocks/header/__logo/header__logo.css');
 
 @import url('../blocks/language/language.css');
-@import url('../blocks/language/__link-en/language__link-en.css');
-@import url('../blocks/language/__link-ru/language__link-ru.css');
+@import url('../blocks/language/__link/language__link.css');
 
 @import url('../blocks/travel/__title/travel__title.css');
 @import url('../blocks/travel/__subtitle/travel__subtitle.css');
@@ -26,24 +26,39 @@
 @import url('../blocks/travel/__list/travel__list.css');
 
 @import url('../blocks/grid/grid.css');
+@import url('../blocks/grid/__items/grid__items.css');
 @import url('../blocks/grid/__item/grid__item.css');
+@import url('../blocks/grid/__item/grid__item_1.css');
+@import url('../blocks/grid/__item/grid__item_2.css');
+@import url('../blocks/grid/__item/grid__item_3.css');
+@import url('../blocks/grid/__item/grid__item_4.css');
+@import url('../blocks/grid/__item/grid__item_5.css');
+@import url('../blocks/grid/__item/grid__item_6.css');
+@import url('../blocks/grid/__item/grid__item_7.css');
+@import url('../blocks/grid/__item/grid__item_8.css');
+@import url('../blocks/grid/__item/grid__item_9.css');
+@import url('../blocks/grid/__item/grid__item_10.css');
+@import url('../blocks/grid/__item/grid__item_11.css');
+@import url('../blocks/grid/__item/grid__item_12.css');
 @import url('../blocks/grid/__image/grid__image.css');
 
 @import url('../blocks/places/places.css');
 
 @import url('../blocks/card-body/card-body.css');
 @import url('../blocks/card-body/__name/card-body__name.css');
+@import url('../blocks/card-body/__title/card-body__title.css');
 @import url('../blocks/card-body/__url/card-body__url.css');
 @import url('../blocks/card-body/__abbr/card-body__abbr.css');
 @import url('../blocks/card-body/__link/card-body__link.css');
 @import url('../blocks/card-body/__card/card-body__card.css');
 @import url('../blocks/card-body/__image/card-body__image.css');
+@import url('../blocks/card-body/__image/_name/card__image_name_kurshkaya-kosa.css');
+@import url('../blocks/card-body/__image/_name/card-body__image_name_kolskii.css');
+@import url('../blocks/card-body/__image/_name/card-body__image_name_altai.css');
+@import url('../blocks/card-body/__image/_name/card-body__image_name_zimnii_baikal.css');
+@import url('../blocks/card-body/__image/_name/card-body__image_name_zimnii_kareliya.css');
 @import url('../blocks/card-body/__paragraphs/card-body__paragraphs.css');
 @import url('../blocks/card-body/__paragraph/card-body__paragraph.css');
-
-@import url('../blocks/card-body/__paragraph/_size/card-body__paragraph_size_indent.css');
-@import url('../blocks/card-body/__title/card-body__title.css');
-
 
 @import url('../blocks/cover/cover.css');
 @import url('../blocks/cover/__image/cover__image.css');

@@ -1,4 +1,11 @@
 .card-body__paragraphs {
-  max-width: 484px;
-  
+  grid-area: text;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .card-body__paragraphs {
+    margin:0px 16px;
+  }
 }

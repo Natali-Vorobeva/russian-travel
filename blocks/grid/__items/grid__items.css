@@ -1,0 +1,20 @@
+.grid__items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  list-style-type: none;
+  gap: 16px;
+  overflow: hidden;
+}
+
+@media(max-width:1024px){
+  .grid__items {
+  gap: 14px;
+}
+}
+
+@media (max-width:752px){
+  .grid__items {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}

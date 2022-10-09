@@ -1,5 +1,4 @@
 .card-body__link {
-  /* text-decoration: underline; */
   letter-spacing: 0;
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
@@ -8,6 +7,7 @@
   line-height: 1.22;
   display: inline-block;
   border-bottom: 1px solid #fff;
+  height: 22px;
 }
 
 .card-body__link:hover {

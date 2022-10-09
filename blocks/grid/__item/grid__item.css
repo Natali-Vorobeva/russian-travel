@@ -1,6 +1,10 @@
-.grid-item {
-  position: relative;
-  padding: 0 0 75% 0;
-  max-width: 1180px;
+.grid__item {
+  aspect-ratio: 1.33;
+}
+
+@media(max-width:1024px){
+  .grid__item {
+    aspect-ratio: 1.35;
+  }
 }
 

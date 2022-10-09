@@ -2,12 +2,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 46px 0 0 0;
+  padding: 47px 0 0 0;
   margin: 0;
 }
 
 @media (max-width: 768px) {
-  .language__links {
-    padding: 40px 0 0 0;
+  .language {
+    padding-top: calc(30px + (46 - 30) * ((100vw - 320px) / (1180 - 320)));
   }
 }
+

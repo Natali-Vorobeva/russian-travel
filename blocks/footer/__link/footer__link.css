@@ -9,11 +9,12 @@
 }
 
 .footer__link:not(:last-child) {
-  margin: 0 19px 0 0;
+  margin-right: 19px;
 }
 
 @media (max-width: 768px) {
-  .footer__link:not(:last-child) {
-    margin: 0 0 32px 0;
+  .footer__link {
+    margin-bottom: 32px;
+    font-size: calc(24px + (16 - 24) * ((100vw - 320px) / (768 - 320)));
   }
 }
