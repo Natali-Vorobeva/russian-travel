@@ -6,14 +6,9 @@
   align-self: end;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 745px) {
   .footer__copyright {
-    align-self: flex-start;
-  }
-}
-
-@media (max-width:600px){
-  .footer__copyright {
+    align-self: start;
     padding: 48px 0 0 0;
   }
 }
