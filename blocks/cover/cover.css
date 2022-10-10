@@ -1,6 +1,6 @@
 .cover {
   position: relative;
-  background-image: url('/../../image/cover-trains.jpg');
+  background: url('/../../image/cover-trains.jpg');
   background-size: cover;
   padding: 0 0 253px 0;
   margin: 92px 48px 0 48px;
