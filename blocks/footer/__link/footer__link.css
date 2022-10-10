@@ -14,7 +14,15 @@
 
 @media (max-width: 768px) {
   .footer__link {
-    margin-bottom: 32px;
     font-size: calc(24px + (16 - 24) * ((100vw - 320px) / (768 - 320)));
+  }
+}
+
+@media (max-width: 600px) {
+  .footer__link:not(:last-child) {
+    margin-right: 0px;
+    margin-bottom: 32px;
+  }
+
   }
 }

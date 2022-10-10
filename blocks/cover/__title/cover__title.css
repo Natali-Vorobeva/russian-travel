@@ -21,7 +21,7 @@
 @media (max-width: 768px) {
   .cover__title {
     font-size: calc(32px + (72 - 32) * ((100vw - 320px) / (768 - 320)));
-    padding-top: calc(90px + (135 - 90) * ((100vw - 320px) / (768 - 320)));
+    padding-top: calc(90px + (115 - 90) * ((100vw - 320px) / (768 - 320)));
   }
 }
 
