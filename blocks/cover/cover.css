@@ -1,10 +1,9 @@
 .cover {
   position: relative;
-  background: url('/../../image/cover-trains.jpg');
+  background: url('/../../../../image/cover-trains.jpg');
   background-size: cover;
   padding: 0 0 253px 0;
   margin: 92px 48px 0 48px;
-  object-fit: cover;
   max-width: 100%;
   min-height: 75%;
   max-width: 100%;
