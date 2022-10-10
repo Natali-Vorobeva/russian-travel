@@ -16,7 +16,7 @@
 
 @media(max-width:1024px){
   .cover__subtitle {
-    padding-left: 0px;
+    padding-left: 0;
   }
 }
 
@@ -24,7 +24,5 @@
   .cover__subtitle {
     font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (768 - 320)));
     padding-top: calc(16px + (32 - 16) * ((100vw - 320px) / (768 - 320)));
-    padding-left: 16px;
-    padding-left: 0;
   }
 }
