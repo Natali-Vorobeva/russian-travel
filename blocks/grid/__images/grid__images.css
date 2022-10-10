@@ -1,4 +1,4 @@
-.grid__items {
+.grid__images {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   list-style-type: none;
@@ -7,13 +7,13 @@
 }
 
 @media(max-width:1024px){
-  .grid__items {
+  .grid__images {
   gap: 14px;
 }
 }
 
 @media (max-width:752px){
-  .grid__items {
+  .grid__images {
     grid-template-columns: 1fr;
     gap: 16px;
   }

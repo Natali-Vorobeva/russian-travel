@@ -26,8 +26,7 @@
 @import url('../blocks/travel/__list/travel__list.css');
 
 @import url('../blocks/grid/grid.css');
-@import url('../blocks/grid/__items/grid__items.css');
-@import url('../blocks/grid/__item/grid__item.css');
+@import url('../blocks/grid/__images/grid__images.css');
 @import url('../blocks/grid/__image/grid__image.css');
 
 @import url('../blocks/places/places.css');

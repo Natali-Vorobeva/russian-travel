@@ -3,4 +3,11 @@
   height: 100%;
   box-sizing: border-box;
   margin: 0;
+  aspect-ratio: 1.33;
+}
+
+@media(max-width:1024px){
+  .grid__image {
+    aspect-ratio: 1.35;
+  }
 }
