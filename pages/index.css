@@ -22,7 +22,6 @@
 @import url('../blocks/travel/__article-title/travel__article-title.css');
 @import url('../blocks/travel/__article-subtitle/travel__article-subtitle.css');
 @import url('../blocks/travel/__list-item/travel__list-item.css');
-@import url('../blocks/travel/__list-item/_size/travel__list-item_size_weight.css');
 @import url('../blocks/travel/__list/travel__list.css');
 
 @import url('../blocks/grid/grid.css');
@@ -37,13 +36,8 @@
 @import url('../blocks/card-body/__url/card-body__url.css');
 @import url('../blocks/card-body/__abbr/card-body__abbr.css');
 @import url('../blocks/card-body/__link/card-body__link.css');
-@import url('../blocks/card-body/__card/card-body__card.css');
 @import url('../blocks/card-body/__image/card-body__image.css');
-@import url('../blocks/card-body/__image/_name/card__image_name_kurshkaya-kosa.css');
-@import url('../blocks/card-body/__image/_name/card-body__image_name_kolskii.css');
-@import url('../blocks/card-body/__image/_name/card-body__image_name_altai.css');
-@import url('../blocks/card-body/__image/_name/card-body__image_name_zimnii-baikal.css');
-@import url('../blocks/card-body/__image/_name/card-body__image_name_kareliya.css');
+@import url('../blocks/card-body/__pic/card-body__pic.css');
 @import url('../blocks/card-body/__paragraphs/card-body__paragraphs.css');
 @import url('../blocks/card-body/__paragraph/card-body__paragraph.css');
 

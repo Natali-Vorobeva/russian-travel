@@ -1,4 +1,19 @@
 .card-body__image {
+  position: relative;
   grid-area: image;
   aspect-ratio: 1;
+ max-width: 460px;
+ overflow: hidden;
+}
+
+@media(max-width:1024px){
+  .card-body__image {
+    max-width: 440px;
+  }
+}
+
+@media (max-width:768px){
+  .card-body__image {
+    max-width: 100%;
+  }
 }
