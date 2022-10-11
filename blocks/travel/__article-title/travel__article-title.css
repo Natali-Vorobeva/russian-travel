@@ -5,6 +5,11 @@
   margin: 0;
 }
 
+@media (max-width:768px){
+  .travel__article-title {
+    font-size: calc(40px + (96 - 40) * ((100vw - 320px) / (768 - 320)));
+  }
+}
 
 
 
