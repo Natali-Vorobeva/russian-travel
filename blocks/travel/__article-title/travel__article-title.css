@@ -7,7 +7,13 @@
 
 @media (max-width:768px){
   .travel__article-title {
-    font-size: calc(40px + (96 - 40) * ((100vw - 320px) / (768 - 320)));
+    font-size: calc(32px + (54 - 32) * ((100vw - 320px) / (768 - 320)));
+  }
+}
+
+@media (max-width:320px){
+  .travel__article-title {
+    width: 248px;
   }
 }
 

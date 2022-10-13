@@ -1,22 +1,7 @@
 .card-body__link {
   letter-spacing: 0;
-  -webkit-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.2;
-  /* display: inline-block; */
-  /* border-bottom: 1px solid #fff; */
-  /* text-decoration: underline; */
-}
-
-.card-body__link:hover {
-  opacity: 0.8;
-  -webkit-transition: opacity 1s ease;
-  transition: opacity 1s ease;
-}
-
-@media(max-width:1024px){
-  .card-body__link {
-    padding: 12px 0 0 0;}
+  padding-top: 12px;
 }

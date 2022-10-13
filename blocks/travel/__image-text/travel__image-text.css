@@ -5,7 +5,7 @@
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  padding: 4px 0 0 0;
+  padding-top: 8px;
 }
 
 @media(max-width:1024px){
@@ -17,6 +17,5 @@
 @media (max-width: 768px) {
   .travel__image-text {
     margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
-
   }
 }

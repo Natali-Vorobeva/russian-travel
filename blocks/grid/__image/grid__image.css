@@ -17,3 +17,8 @@
     aspect-ratio: 1.34;
   }
 }
+@media(max-width:320px){
+  .grid__image {
+    aspect-ratio: 1.339;
+  }
+}

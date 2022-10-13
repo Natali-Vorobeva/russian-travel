@@ -12,6 +12,7 @@
 
 @media (max-width: 768px) {
   .header {
-    margin: 0 24px;
+    margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
+    margin-right: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
   }
 }

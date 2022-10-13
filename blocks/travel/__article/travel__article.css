@@ -1,12 +1,13 @@
 .travel__article {
-  padding: 90px 0 0 0;
+  padding-top: 92px;
   margin: 0 148px;
 }
 
 @media (max-width: 1024px) {
   .travel__article {
-    margin: 0 48px;
-    padding: 92px 0 0 0;
+    margin-left: 48px;
+    margin-right: 48px;
+    padding-top: 92px;
   }
 }
 
@@ -14,6 +15,6 @@
   .travel__article {
     margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
     margin-right: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
-    padding-top: calc(64px + (88 - 64) * ((100vw - 320px) / (768 - 320)));
+    padding-top: calc(66px + (88 - 66) * ((100vw - 320px) / (768 - 320)));
   }
 }

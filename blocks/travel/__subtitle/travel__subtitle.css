@@ -12,8 +12,6 @@
 @media (max-width: 768px) {
   .travel__subtitle {
     font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (768 - 320)));
-    padding-top: calc(16px + (32 - 16) * ((100vw - 320px) / (768 - 320)));
-    margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
-    margin-right: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
+    padding-top: calc(19px + (32 - 19) * ((100vw - 320px) / (768 - 320)));
   }
 }

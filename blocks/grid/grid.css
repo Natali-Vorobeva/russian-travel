@@ -12,22 +12,23 @@
   .grid {
     padding-top: 92px;
     grid-template-columns: repeat(3, 1fr);
-  gap: 14px;
+    gap: 14px;
   }
 }
 
 @media (max-width:768px){
   .grid {
-    padding-top: calc(64px + (92 - 64) * ((100vw - 320px) / (768 - 320)));
+    padding-top: calc(62px + (86 - 62) * ((100vw - 320px) / (768 - 320)));
     margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
     margin-right: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
     grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
+    gap: 18px;
   }
 }
 
 @media (max-width:600px){
   .grid {
     grid-template-columns: 1fr;
+    gap: 13px;
   }
 }

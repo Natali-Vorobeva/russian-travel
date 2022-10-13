@@ -18,6 +18,10 @@ max-height: 640px;
 
 @media(max-width:768px){
  .cover {
+  max-width: calc(320px + (768 - 320) * ((100vw - 320px) / (768 - 320)));
+  max-height: calc(200px + (480 - 200) * ((100vw - 320px) / (768 - 320)));
+  margin-top: calc(69px + (92 - 69) * ((100vw - 320px) / (768 - 320)));
+}
+}
 
-}
-}
+
