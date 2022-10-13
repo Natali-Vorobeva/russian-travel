@@ -1,8 +1,6 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/fonts.css');
 @import url('../blocks/link/link.css');
-@import url('../blocks/active/active.css');
-@import url('../blocks/span-accent/span-accent.css');
 
 @import url('../blocks/page/page.css');
 @import url('../blocks/page/__background/page__background.css');
@@ -12,6 +10,7 @@
 
 @import url('../blocks/language/language.css');
 @import url('../blocks/language/__link/language__link.css');
+@import url('../blocks/language/__link/_active/language__link_active.css');
 
 @import url('../blocks/travel/__title/travel__title.css');
 @import url('../blocks/travel/__subtitle/travel__subtitle.css');
@@ -23,9 +22,9 @@
 @import url('../blocks/travel/__article-subtitle/travel__article-subtitle.css');
 @import url('../blocks/travel/__list-item/travel__list-item.css');
 @import url('../blocks/travel/__list/travel__list.css');
+@import url('../blocks/travel/__span-accent/travel__span-accent.css');
 
 @import url('../blocks/grid/grid.css');
-@import url('../blocks/grid/__images/grid__images.css');
 @import url('../blocks/grid/__image/grid__image.css');
 
 @import url('../blocks/places/places.css');
@@ -36,16 +35,15 @@
 @import url('../blocks/card-body/__url/card-body__url.css');
 @import url('../blocks/card-body/__abbr/card-body__abbr.css');
 @import url('../blocks/card-body/__link/card-body__link.css');
+@import url('../blocks/card-body/__text-decoration/card-body__text-decoration.css');
 @import url('../blocks/card-body/__image/card-body__image.css');
-@import url('../blocks/card-body/__pic/card-body__pic.css');
 @import url('../blocks/card-body/__paragraphs/card-body__paragraphs.css');
 @import url('../blocks/card-body/__paragraph/card-body__paragraph.css');
 
 @import url('../blocks/cover/cover.css');
-@import url('../blocks/cover/__image/cover__image.css');
 @import url('../blocks/cover/__subtitle/cover__subtitle.css');
 @import url('../blocks/cover/__title/cover__title.css');
-@import url('../blocks/cover/__wrapper-opacity/cover__wrapper-opacity.css');
+@import url('../blocks/cover/__link/cover__link.css');
 
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');

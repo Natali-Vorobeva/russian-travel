@@ -30,7 +30,8 @@
 @media (max-width:1070px) {
   .card-body {
     grid-template-columns: 46.75% 1fr;
-    column-gap: 28px;
+    column-gap: 37px;
+    row-gap: 49px;
   }
 }
 

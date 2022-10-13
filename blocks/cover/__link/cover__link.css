@@ -1,0 +1,29 @@
+.cover__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1184px;
+  min-height: 740px;
+  background: rgba(42, 44, 47, .3);
+  transition: 1s ease;
+
+}
+
+.cover__link:hover  {
+  transition: 1s ease;
+  background: rgba(42, 44, 47, 0.84);
+}
+
+@media(max-width:1024px){
+  .cover__link {
+margin-left: 0;
+margin-right: 0;
+max-width: 1024px;
+min-height: 640px;
+}
+}
+
+
+/* .cover:hover {
+  background: rgba(42, 44, 47, .84);
+} */

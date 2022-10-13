@@ -3,7 +3,6 @@
   font-size: 96px;
   line-height: 1.04;
   padding: 56px 0 0 0;
-  /* max-width: 720px; */
   margin: 0 48px;
   text-align: center;
 
@@ -11,8 +10,8 @@
 
 @media(max-width:1024px){
   .travel__title {
-    font-size: calc(40px + (96 - 40) * ((100vw - 320px) / (768 - 320)));
-    padding: 48px 0 0 0;
+    font-size: calc(40px + (96 - 40) * ((100vw - 320px) / (1024 - 320)));
+    padding: 49px 0 0 0;
   }
 }
 

@@ -1,0 +1,5 @@
+.language__link_active {
+  cursor: default;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}

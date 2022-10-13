@@ -4,6 +4,7 @@
   line-height: 1.1;
   font-style: normal;
   list-style-type: none;
+  height: 26px;
 }
 
 .language__link:not(:last-child){
@@ -12,6 +13,6 @@
 
 @media (max-width:768px){
   .language__link {
-    font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (1180 - 320)));
+    font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (768 - 320)));
   }
 }

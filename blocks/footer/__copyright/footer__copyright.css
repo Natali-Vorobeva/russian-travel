@@ -3,7 +3,7 @@
   font-size: 14px;
   line-height: 1.14;
   margin: 0;
-  align-self: end;
+  align-self: flex-start;
 }
 
 @media (max-width: 745px) {

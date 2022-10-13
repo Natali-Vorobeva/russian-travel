@@ -1,9 +1,11 @@
 .card-body__url {
-  align-self: end;
-  letter-spacing: 0.2em;
+  display: flex;
+  flex-direction: column;
   line-height: 1;
   color: #aaa;
   grid-area: link;
+  height: 100%;
+  justify-content: end;
 }
 
 @media (max-width: 600px) {
