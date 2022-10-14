@@ -8,7 +8,7 @@
 
 @media (max-width: 768px) {
   .language {
-    padding-top: calc(30px + (40 - 30) * ((100vw - 320px) / (768 - 320)));
+    padding-top: calc(30px + (46 - 30) * ((100vw - 320px) / (768 - 320)));
   }
 }
 

@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   aspect-ratio: 1.33;
+  object-fit: cover;
 }
 
 @media(max-width:1024px){
